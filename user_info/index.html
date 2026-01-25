@@ -5,25 +5,55 @@
 <html lang="en-US">
 
 <head>
-<title>
-    User Information Dashboard
-</title>
+    <meta charset="UTF-8">
+    <title>User Information Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 
 <body>
-    <form>
+    <header>
+        <div class="global-header">
+            <img src="" alt="Logo" style="float:left;">
+            <a href="index.html">Dashboard</a>
+            <a href="index.html">Game History</a>
+            <a href="index.html">Sign Out</a>
+            <img src="" alt="Avatar" style="float:right">
+        </div>
+    </header>
+
+    <img src="" alt="Avatar" style="float: left;">
+
+    <form id="user-basic-info">
         <label for="nickname">Nickname:</label>
         <input type="text" id="nickname" name="nickname"><br><br>
 
         <label for="userpfp">Upload Your Profile Picture:</label>
         <input type="file" id="userpfp" name="userpfp" accept="image/png, image/jpeg, image/jpg"><br><br>
+    </form>
+
+    <form id="user-changing-info">
+        <label for="useremail">Email:</label>
+        <input type="email" id="useremail" name="useremail"><br><br>
 
         <label for="dob">Date of Birth:</label>
         <input type="date" id="dob" name="dob"><br><br>
 
+        <label for="userpw">Password:</label>
+        <input type="password" id="userpw" name="userpw"><br><br>
+
+        <label for="userrepw">Password:</label>
+        <input type="password" id="userrepw" name="userrepw"><br><br>
+
+        <button type="button">Cancel Changes</button>
+        <button type="button">Save Changes</button>
+
+        <button type="button">Delete Account</button>
+
     </form>
 
 </body>
+
 
 </html>
