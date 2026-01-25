@@ -1,0 +1,40 @@
+/* Assignment 2: Style Sheet created by Jorrell Salazar (jgs015) */
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header, footer {
+    border: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-color: beige;
+    border: 50px;
+    margin: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#user-basic-info, #editables {
+    border: 50px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+
+
+/* End of file */
