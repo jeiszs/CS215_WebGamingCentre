@@ -1,4 +1,4 @@
-/* Assignment 2: Style Sheet created by Jorrell Salazar (jgs015) */
+/* Assignment 2: Style Sheet by Jorrell Salazar (jgs015) */
 
 
 * {
@@ -11,8 +11,8 @@ p {
 }
 
 header, footer {
-    border: 20px;
-    margin: 20px;
+    border: 10px;
+    margin: 50px;
     padding: 20px;
     display: block;
 }
@@ -29,12 +29,19 @@ h1 {
     font-size: 2em;
 }
 
+.globalheader {
+    text-align: center;
+}
+
+.form-buttons {
+    border: 50px;
+    margin: 50px;
+    padding: 20px;
+}
+
 #user-basic-info, #editables {
     border: 50px;
     margin: 20px;
     padding: 20px;
     display: block;
 }
-
-
-/* End of file */
